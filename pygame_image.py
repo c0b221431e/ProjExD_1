@@ -21,7 +21,7 @@ def main():
         screen.blit(kk_img, [300, 200]) #screen Surfaceにこうかとん画像を張り付ける
         pg.display.update()
         tmr += 1        
-        clock.tick(1)
+        clock.tick(200)
 
 
 if __name__ == "__main__":
