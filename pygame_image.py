@@ -36,6 +36,8 @@ def main():
         screen.blit(bg_img, [x+3200, 0])
         screen.blit(bg_img2, [x+4800, 0])
         screen.blit(kk_img, kk_rct) #screen Surfaceにこうかとん画像を張り付ける
+        kk_rct.move_ip(-1, 0)
+        
         pg.display.update()
         tmr += 1        
         clock.tick(200)
